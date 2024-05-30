@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FORM to apply for TA for SWBC</h1>
+
+    <form action="post">
+        <label for="username">Enter your username- </label>
+        <input type="text" name="username" placeholder="Enter Your username" id="username">
+        <br>
+        <br>
+        <label for="password">Please enter your password-</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <br>
+        <br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <label for="checkbox">Are you 18years or older</label> <br>
+        <input type="radio" name="Age" id="AgeY">
+        <label for="AgeY">Yes</label>
+        <input type="radio" name="Age" id="AgeN">
+        <label for="AgeN">No</label>
+        <br>
+        <br>
+        <label for="quals">Enter Your Qualifications</label> <br>
+        <textarea name="Qualification" id="quals" rows="20" cols="50" placeholder="Enter your Qualifications in less than 200 words"></textarea>
+        <br>
+        <hr>
+        <input type="button" name="submit" id="submit" >
+        <label for="submit">submit</label>
+        <input type="button" name="reset" id="reset" >
+        <label for="reset">reset</label>
+
+
+
+        
+    </form>
+
+
+</body>
+
+</html>

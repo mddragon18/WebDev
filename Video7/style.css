@@ -1,0 +1,11 @@
+body
+{
+        color: white;
+        background-image: url(image.avif);
+        background-size: cover;     /* This makes the image cover the entire screen */
+        background-repeat: no-repeat; /* This prevents the image from repeating */
+        background-position: center; /* This centers the image */
+        background-attachment: fixed; /* This makes the image stay in place when scrolling */
+    
+    
+}
