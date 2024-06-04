@@ -1,0 +1,16 @@
+h1 {
+    color: aqua;
+}
+
+.yellow.red {
+    color: yellow ; 
+    text-align: center;
+}
+
+h1.purple {
+    color: red;
+}
+
+.red {
+    color: red;
+}

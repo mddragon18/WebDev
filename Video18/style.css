@@ -1,0 +1,19 @@
+.box
+{
+    border: 2px solid black;
+    background-color: aqua;
+}
+.box1
+{
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    height: 200px;
+    /* box-sizing: border-box; */
+}
+.box2
+{
+    color: green;
+}
+
+

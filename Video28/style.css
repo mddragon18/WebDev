@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    border: 3px solid black;
+    padding: 20px;
+    margin:20px;
+    border-collapse: none;
+    box-sizing: border-box;
+    /* position: absolute; */
+}
+
+.box {
+    border: 2px solid black;
+    height: 500px;
+    width: 90vw;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.box0 {
+    background-color: rgb(171, 95, 14);
+    position: sticky;
+    top: 0px;
+    height: 5vh;
+   
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: lightblue;
+    /* position: relative;
+    top: -80px;
+    left: 45px; */
+
+}
+
+.box3 {
+    background-color: green;
+    /* height: 400px; */
+}

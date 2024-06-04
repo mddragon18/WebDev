@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(178, 193, 193);
+}
+
+
+.outter
+{
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    left: 35vw;
+    top: 20vh;
+    position: absolute;
+    /* height: 500px; */
+    width: 411px;
+}
+.image
+{
+
+    width: 400px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    /* border: 2px solid rgb(222, 7, 7); */
+    
+}
+img
+{
+    border-radius: 5px;
+}
+ button
+ {
+    position: relative;
+    left: 10px;
+    top: -5px;
+    border: 3px;
+    border-radius: 7px; 
+    /* background-color: rgb(108, 114, 213); */
+}
+
+.heading
+{
+    
+    position: relative;
+    left: 11px;
+}
+.p
+{
+    position: relative;
+    width: 400px;
+    margin: 16px 0px;
+}
+p
+{
+    margin: 16px 11px;
+}
+ div>div>button
+ {
+    display: block;
+    position: relative;
+    left: 150px;
+    margin: 15px;
+    background-color: lightblue;
+    
+}
