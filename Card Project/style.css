@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(178, 193, 193);
+    background-color: rgb(61, 157, 157);
 }
 
 
@@ -45,15 +45,15 @@ img
     position: relative;
     left: 11px;
 }
-.p
+/* .p
 {
     position: relative;
     width: 400px;
     margin: 16px 0px;
-}
-p
+} */
+.text
 {
-    margin: 16px 11px;
+    margin: 16px 11px ;
 }
  div>div>button
  {
