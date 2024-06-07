@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid1</title>
+    <style>
+        .container
+        {
+            border: 2px solid black;
+            color: black;
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            width: 90vw;
+            height: 100vh;
+            /* justify-items: center; */
+            /* justify-content: center; */
+            align-items: center;
+            /* gap: 0px; */
+            /* place-content: center; */
+        }
+        .item
+        {
+            background-color: aqua;
+            width: 55px;
+            height: 55px;
+            border: 2px solid blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>

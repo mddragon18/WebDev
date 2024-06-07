@@ -1,0 +1,46 @@
+.container
+{
+    border: 2px solid green;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "Side article article" 
+                         "footer footer footer";
+}
+.item1
+{
+    grid-area: nav;
+    background-color:rebeccapurple
+    
+}
+.item2
+{
+    grid-area: Side;
+    background-color:blue
+    
+}
+.item3
+{
+    grid-area: article;
+    background-color:indigo
+    
+}
+.item4
+{
+    grid-area:footer;
+    background-color:aquamarine 
+    
+}
+
+
+.item
+{
+    /* background-color: bisque; */
+    color: black;
+    border: 2px solid orange;
+    height: 55px;
+    /* width: 55px; */
+    align-content: center;
+    /* justify-content:center ; */
+    /* justify-items: center; */
+    text-align: center;
+}

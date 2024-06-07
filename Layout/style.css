@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: aqua;
+    height: 10vh;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.container {
+    background-color: green;
+    height: auto;
+    margin: 12px 30px;
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+.l {
+    background-color: rgb(196, 194, 214);
+    height: 70vh;
+    width: 40vw;
+    margin: 0px 20px;
+    display: inline-block;
+
+}
+
+.r {
+    background-color: rgb(75, 45, 8);
+    height: 70vh;
+    width: 40vw;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+footer {
+    height: 75px;
+    background-color: peru;
+
+}
+
+.text {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px 30vw;
+    font-size: 2em;
+}
+
+img {
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    right: 0;
+    bottom: 80px;
+    border-radius: 20cm;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        background-color: black;
+        color: white;
+        padding: 40px 1px;
+    }
+
+    .container {
+        background-color: green;
+        height: auto;
+        margin: 12px 10px;
+        padding: 50px 1vw;
+        text-align: center;
+
+    }
+
+    .l {
+        background-color: rgb(82, 89, 216);
+        height: 30vh;
+        width: 40vw;
+        margin: 0px 20px;
+        display: inline-block;
+
+    }
+
+    .r {
+        background-color: rgb(75, 45, 8);
+        height: 30vh;
+        width: 40vw;
+        display: inline-block;
+        margin: 0px 20px;
+    }
+
+    footer {
+        height: 75px;
+        background-color: peru;
+
+    }
+
+    .text {
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 30px 10vw;
+        font-size: 2em;
+    }
+
+    img {
+        position: fixed;
+        width: 75px;
+        height: 75px;
+        right: 0;
+        bottom: 80px;
+        border-radius: 20cm;
+    }
+}
+
+@media screen and (max-width:455px) {
+    main {
+        background-color: black;
+        color: white;
+        padding: 40px 1px;
+    }
+
+    .container {
+        background-color: green;
+        height: auto;
+        margin: 12px 10px;
+        padding: 30px 4px;
+        text-align: center;
+
+    }
+
+    .l {
+        background-color: bisque;
+        height: 30vh;
+        width: 80vw;
+        margin: 10px 5px;
+        display: inline-block;
+
+    }
+
+    .r {
+        background-color: rgb(176, 106, 21);
+        height: 30vh;
+        width: 80vw;
+        display: inline-block;
+        margin: 0px 20px;
+    }
+
+    footer {
+        height: 75px;
+        background-color: peru;
+
+    }
+
+    .text {
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 30px 5vw;
+        font-size: 2em;
+    }
+
+    img {
+        position: fixed;
+        width: 75px;
+        height: 75px;
+        right: 0;
+        bottom: 30px;
+        border-radius: 20cm;
+    }
+}

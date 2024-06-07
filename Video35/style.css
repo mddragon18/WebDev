@@ -1,0 +1,39 @@
+/* .box:first-child
+{
+    background-color: rgb(185, 215, 213);
+} */
+/* .boxes *
+{
+    color: red;
+    border: 3px solid black;
+}
+.box,[data-color="primary"]
+{
+    margin: 15px;
+    
+} */
+
+.box:nth-child(odd)
+{
+    background-color: aquamarine;
+}
+.boxes::before
+{
+    content: "Thomas is Good";
+}
+::selection
+{
+    /* background-color: rgb(86, 24, 24); */
+    color: aquamarine;
+    background-color: black;
+
+}
+.boxes::first-letter,.box::first-letter
+{
+    color: peru;
+    font-size: 45px;
+}
+ input::placeholder
+ {
+    color: green;
+ }

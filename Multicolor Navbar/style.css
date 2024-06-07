@@ -1,0 +1,28 @@
+:root
+{
+    --color: blue;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: rgb(66, 90, 197);
+}
+nav
+{
+    background-color: var(--color);
+    padding: 10px;
+}
+ul 
+{
+    display: flex;
+    list-style-type: none;
+}
+ul li
+{
+    padding: 10px;
+}
+
