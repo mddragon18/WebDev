@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+   background-color: black; 
+   width: 80vw;
+   height: 70vh;
+
+}
+.box
+{
+    background-color: rgb(88, 50, 194); 
+   width: 10vw;
+   height: 10vh;
+   animation-name: myani;
+   animation-duration: 1.5s;
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in-out;
+   animation-delay:0.1s;
+   animation-fill-mode: forwards;
+   /* transform: translateX(100%) translateY(50%);
+   transition: transform 1s ease-in-out 10ms; */
+}
+@keyframes myani {
+    from
+    {
+        background-color: red;
+    }
+    to 
+    {
+        background-color: darkcyan;
+      transform: translateX(80vw) translateY(70vh) rotateZ(180deg);  
+    }
+    
+}

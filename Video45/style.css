@@ -1,0 +1,15 @@
+.container
+{
+    background-color: aqua;
+    width: 70vw;
+    height: 80vh;
+}
+.item
+{
+    background-color: rgb(127, 6, 240);
+    width: 20vw;
+    height: 20vh;
+    transform: translateX(100%) translateY(50%) scale(0.5);
+    transition: transform 0.5s cubic-bezier(0, 1.33, 0.5, 1.13) 10ms;
+}
+

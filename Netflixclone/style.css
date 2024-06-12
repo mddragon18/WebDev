@@ -1,0 +1,118 @@
+*
+{
+    margin: 0; padding: 0;
+    font-family: "Martel Sans", sans-serif;
+}
+body
+{
+    background-color: black;
+}
+
+.main{
+    background-image: url(Assets/Img/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 90vh;
+    position: relative;
+}
+nav{
+    padding-top: 10px;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: relative;
+    z-index: 10;
+    
+}
+.text
+{
+    text-align: center;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: calc(100% - 68px);
+    position: relative;
+    z-index: 10;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.text> :first-child
+{
+    font-size: 48px;
+    font-weight: 900;
+}
+.text> :nth-child(2)
+{
+    font-size: 24px;
+    font-weight: 400;
+}
+.text> :nth-child(3)
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav button
+{
+    
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+.main .box
+{
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+}
+.line
+{
+    background-color: rgb(71, 70, 70);
+    height: 7px;
+    opacity: 0.4;
+}
+.buttons
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    z-index: 12;
+}
+.main .text button 
+{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 20px;
+    font-weight: 700;
+} 
+.main div input
+{
+    color: white;
+    padding: 11px 117px 12px 10px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgba(23,23,23,0.6);
+    
+}

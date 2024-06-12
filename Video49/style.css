@@ -1,0 +1,16 @@
+.container
+{
+    
+    width: 40vw;
+    height: 40vh;
+    /* border: 2px solid; */
+}
+img{
+    width: 40vw;
+    height: 40vh;
+    /* object-fit: contain; */
+    /* object-fit: cover; */
+    object-fit: cover;
+    /* object-position: ; */
+    /* object-position:center; */
+}

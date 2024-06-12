@@ -17,6 +17,7 @@
     
 }
 
+
 .ue{
     padding-top: 10px;
     padding-left: 7vw;
@@ -48,11 +49,57 @@
     justify-content: center;
     
 }
-button
+.Big
 {
    margin: 10px 560px;
    background-color: #09a6bd;
    color: white;
    border-radius: 5px;
    border: 2px solid white;
+}
+.grid
+{
+    /* border: 2px solid black; */
+    width: 90vw;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px 0px;
+    
+}
+.box
+{
+    padding: 10px;
+    background-color: #f9f9f9;
+    /* border: 2px solid; */
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+h3
+{
+    margin: 10px;
+}
+.Download
+{
+    background-color: rgb(63, 202, 63);
+    padding:6px 10px;
+    position: relative;
+    top: 24px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    border-color: white;
+    
+}
+p
+{
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
