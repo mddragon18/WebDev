@@ -1,22 +1,24 @@
-*
-{
-    margin: 0; padding: 0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: "Martel Sans", sans-serif;
+    flex-wrap: wrap;
 }
-body
-{
+
+body {
     background-color: black;
 }
 
-.main{
+.main {
     background-image: url(Assets/Img/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200px,100vw);
+    background-size: max(1200px, 100vw);
     height: 90vh;
     position: relative;
 }
-nav{
+
+nav {
     padding-top: 10px;
     max-width: 70vw;
     margin: auto;
@@ -26,10 +28,10 @@ nav{
     height: 60px;
     position: relative;
     z-index: 10;
-    
+
 }
-.text
-{
+
+.text {
     text-align: center;
     padding: 0 10px;
     display: flex;
@@ -46,25 +48,24 @@ nav{
     font-style: normal;
 
 }
-.text> :first-child
-{
+
+.text> :first-child {
     font-size: 48px;
     font-weight: 900;
 }
-.text> :nth-child(2)
-{
+
+.text> :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
 }
-.text> :nth-child(3)
-{
+
+.text> :nth-child(3) {
     font-size: 20px;
     font-weight: 400;
 }
 
-nav button
-{
-    
+nav button {
+
     color: white;
     font-weight: bold;
     padding: 8px;
@@ -72,8 +73,7 @@ nav button
     border-radius: 3px;
 }
 
-.main .box
-{
+.main .box {
     position: absolute;
     top: 0;
     height: 90vh;
@@ -81,22 +81,23 @@ nav button
     opacity: 0.65;
     background-color: black;
 }
-.line
-{
+
+.line {
     background-color: rgb(71, 70, 70);
     height: 7px;
     opacity: 0.4;
 }
-.buttons
-{
+
+.buttons {
     display: flex;
+    flex-direction: row;
     gap: 10px;
     align-items: center;
     position: relative;
     z-index: 12;
 }
-.main .text button 
-{
+
+.main .text button {
     background-color: red;
     border: none;
     color: white;
@@ -104,8 +105,211 @@ nav button
     padding: 10px 24px;
     font-size: 20px;
     font-weight: 700;
-} 
-.main div input
+}
+
+.main div input {
+    color: white;
+    padding: 11px 117px 12px 10px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgba(23, 23, 23, 0.6);
+
+}
+
+.first {
+    padding: 30px 0px;
+    color: white;
+    margin: auto;
+    max-width: 80vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.first .first-text :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.first .first-text :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.first-text {
+    position: relative;
+    top: 132px;
+    height: 400px;
+}
+.sec-img
+{
+    height: 500px;
+}
+.first .sec-img video
+{
+    position: relative;
+    bottom: 385px;
+    left: 80px;
+    z-index: -1;
+    width: 545.14px;
+}
+.second
+{
+    padding: 30px 0px;
+    color: white;
+    margin: auto;
+    max-width: 80vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.second .second-text :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.second .second-text :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Martel Sans", sans-serif;
+}
+.second-text {
+    position: relative;
+    top: 132px;
+    height: 400px;
+}
+.second .sec-img
+{
+    height: 500px;
+    position: relative;
+    bottom: 10px;
+}
+.third
+{
+    padding: 30px 0px;
+    color: white;
+    margin: auto;
+    max-width: 80vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.third .third-text :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.third .third-text :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Martel Sans", sans-serif;
+}
+.third-text {
+    position: relative;
+    top: 132px;
+    height: 400px;
+}
+.third .sec-img
+{
+    width: 545.14px;
+    position: relative;
+    bottom: 10px;
+}
+.sec-img video
+{
+    position: relative;
+    /* top: 0px; */
+    bottom: 425px;
+    left: 112px;
+    z-index: -1;
+    width: 404px;
+}
+.fourth
+{
+    padding: 30px 0px;
+    color: white;
+    margin: auto;
+    max-width: 80vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.fourth .fourth-text :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.fourth .fourth-text :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Martel Sans", sans-serif;
+}
+.fourth-text {
+    position: relative;
+    top: 132px;
+    height: 400px;
+}
+.faqs
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+.faqsHead
+{
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.faqboxes
+{
+   display: flex; 
+   flex-direction: row;
+   background-color: rgb(101 96 96 / 50%);
+   max-width: 70vw; 
+   height: 12vh;
+   align-items: center;
+   width:70vw ;
+   padding-left: 20px ;
+   font-size: 24px;
+   font-weight: 400;
+   gap: 55vw;
+   
+}
+.plus
+{
+    font-size: 50px;
+    font-weight: 100;
+}
+.faqemail
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.faqs button {
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.faqs input
 {
     color: white;
     padding: 11px 117px 12px 10px;
@@ -113,6 +317,37 @@ nav button
     font-weight: 900;
     border-radius: 5px;
     border: 1px solid gray;
-    background-color: rgba(23,23,23,0.6);
-    
+    background-color: rgba(23, 23, 23, 0.6);
+
 }
+.faqs .buttons
+{
+    padding-bottom: 40px;
+}
+.ques
+{
+    font-size: 16px;
+    padding-top: 40px;
+    padding-left: 65px;
+    color: rgba(255, 255, 255, 0.7);
+}
+ .footer
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   font-size: 14px;
+   font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 90vw;
+    margin: auto;
+    row-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width:600px)
+{
+
+}
+
+    
+    
