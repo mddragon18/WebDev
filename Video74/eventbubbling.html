@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            cursor: pointer;
+            padding: 14px;
+            margin: 14px;
+            background-color: yellow;
+        }
+
+        .childContainer
+        {
+            padding: 14px;
+            margin: 14px;
+            background-color:blue;
+        }
+        .child
+        {
+            padding: 14px;
+            margin: 14px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="childContainer">
+            <div class="child">This is a child</div>
+        </section>
+    </div>
+    <script>
+        document.querySelector(".child").addEventListener("click",(e)=> {
+            e.stopImmediatePropagation();  
+            alert("Dont touch my kid!!")})
+        document.querySelector(".childContainer").addEventListener("click",()=>{alert("Dont touch my kid's house!!")})
+        document.querySelector(".container").addEventListener("click",()=>{alert("Dont touch my house!!")})
+    </script>
+</body>
+</html>

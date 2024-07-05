@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.card
+{
+    height: 106px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    gap: 12px;
+}
+.x
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.duration
+{
+    align-self:flex-end;
+    position: relative;
+    z-index: 1000;
+    right: 45px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.605);
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 500;   
+}
+.videoinfo
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    margin-left: -15px;
+}
+.title
+{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -15px;
+    
+}
+.extra
+{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(170, 170, 170);
+}
+
